@@ -1,0 +1,851 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+/* red box */
+
+  .newdesc, .newdesc h1, .newdesc span, .newdesc p {
+	
+	font-size: 14px !important;
+	  
+  }
+	  
+#product-specs > ul > li > span > a:link{color:#808080;}
+
+#product-specs li {
+  padding: 8px 20px;
+  list-style: none;
+  
+}
+
+ul.alternate {
+padding: 0;	
+	
+}
+
+ul.alternate li:nth-child(even) {
+  background: #f0f5f9;
+}
+
+l.alternate li strong {
+  display: block;
+  float: left;
+}
+ul.alternate li strong, ul.alternaterev li strong {
+  display: inline-block;
+  width: 250px;
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-top: 0;
+  vertical-align: top;
+  color: #53a3e8;
+ 
+}
+
+ul.alternate span {
+	display: inline-block;
+	margin-top: 0;
+	max-width: 450px;
+	 
+ 
+}
+
+#product-specs > ul > li > span > a:link{color:#808080;}
+
+
+
+ .bordered {
+  padding: 60px 15px 5px 15px;
+  border-radius: 3px;
+  position: relative;
+  margin: 20px 0;
+  clear: both;
+  overflow: hidden;
+}
+
+#product-specs {padding:10px 3px 3px 3px;}
+
+
+/*style="display:inline-block;width:62%"*/
+
+
+/* article base */
+article {
+width:100%;
+  max-width: 720px;
+  margin: 10px auto;
+  padding: 10px;
+  background: #fff;
+  box-shadow: -3px 3px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+    .question, 
+    .answer {
+        float: none;
+        width: auto;
+    }
+	 
+}
+
+ 
+
+
+
+ .maindescontainer{
+	border: 1px solid #CCC;	
+	width: 100%;
+	  
+	 margin-bottom: 25px;
+	padding: 10px;
+	text-align: left;
+	min-height: 250px;
+	font-size: 18px !important;
+	-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+	 
+	 
+ }
+ 
+ 
+ .descriptionbox {
+	 
+	 text-align: center;
+	 min-height: 50px;
+	 background:#275b8d;
+	 color: #FFF;
+	 font-weight: 600;
+	 padding-top: 15px;
+	 width: 100%;
+	 margin-top: 25px;
+	 -webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+	 
+ }
+.left1 {
+	float: left;
+	width: 49%;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #FFF;	 
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+.right1 {
+	float: right;
+	width: 49%;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #FFF;
+	border-bottom-width: 7px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+
+@media screen and (max-width: 768px) {
+    .left1, 
+    .right1 {
+        float: none;
+        width: auto;
+    }
+	.rightpromo {
+		
+	display: none!important;	
+	}
+}
+
+
+.cssnav
+{
+position: relative;
+font-family: 'Lato', serif;
+white-space: nowrap;
+display: block;
+width: 212px;
+height: 65px;
+margin: 0;
+padding: 0;
+background-image: url(https://raw.githubusercontent.com/robbyron/steelwheels/main/mouseover.gif);
+background-repeat: no-repeat;
+background-color: #009999;
+ 
+color: #000 !important;
+text-transform: uppercase !important;
+
+
+}
+.cssnav a
+{
+display: block;
+color: #fff !important;
+font-size: 14px;
+width: 212px;
+height: 65px;
+display: block;
+float: left;
+color: #000;
+text-decoration: none;
+font-weight: 400;
+border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e5e5e5;
+
+text-transform: uppercase !important;
+}
+.cssnav img
+{
+width: 212px;
+height: 65px;
+ 
+border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e5e5e5;
+}
+* html a:hover
+{
+visibility:visible
+}
+.cssnav a:hover img
+{
+visibility:hidden;
+background-image: url();
+border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e5e5e5;
+}
+.cssnav span
+{
+	position: absolute;
+	left: 8px;
+	top: 20px;
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+	color: #000 !important;
+	
+	
+}
+
+
+a.style4:link {
+color: #000 !important;
+text-decoration: none;
+}
+a.style4:visited {
+color: #000 !important;
+text-decoration: none;
+}
+a.style4:hover {
+color: #000 !important;
+text-decoration: none;
+}
+
+
+ 
+
+.fixed {
+	
+	display: block; margin-left: 15px !important;
+}
+
+#LeftPanel span.cnt
+{
+	display:none !important;
+}
+
+.topnav .col-xs-12:first-child { /* welcome top left */
+	color:;
+	color: #fff;
+	text-transform: uppercase !important;
+}
+.navbar-right .form-group .search { /* search */
+	background:;
+}
+
+.topnav .navbar-nav a { /* mid navigation bar style */
+	 
+	color: #fff;
+	text-transform: uppercase !important;
+	  
+}
+
+.midnav .navbar-nav a { /* mid navigation bar style */
+	 
+	 
+	color: #fff;
+	background-image: url(https://raw.githubusercontent.com/robbyron/steelwheels/main/navbg.jpg);
+	text-transform: uppercase !important;	  
+	font-size: 12px !important;
+}
+.midnav .navbar-nav a:hover, .midnav .navbar-nav a:focus/* mid navigation bar colour style */ {
+	color: #ccc;
+	background:;
+}
+.fast, .rated, .range { /* under cat nav - 3boxes title. You can style separately(.rated & .range class too). Also check style.css line 18*/
+	color:;
+	background:;
+	color: #000;	
+	text-transform: uppercase !important; 
+}
+.fast p, .rated p, .range p { /* 3boxes small text */
+	color: #000 !important;
+	 
+}
+.item-title { /* 4boxes (dedicated support, quality, best price, UK based). check style.css line 39 (.item-title) & line 10 (.ccyan) for color and line 40(.item-desc) for small text*/
+	color: #000 !important;
+	text-transform: uppercase !important;
+}
+
+.item-title a:link { /* 4boxes (dedicated support, quality, best price, UK based). check style.css line 39 (.item-title) & line 10 (.ccyan) for color and line 40(.item-desc) for small text*/
+	color: #000 !important;
+	text-transform: uppercase !important;
+}
+
+.item-title a:visited { /* 4boxes (dedicated support, quality, best price, UK based). check style.css line 39 (.item-title) & line 10 (.ccyan) for color and line 40(.item-desc) for small text*/
+	color: #000 !important;
+	text-transform: uppercase !important;
+}
+
+
+.item-desc { /* style.css line 40 for 4boxes small text*/
+	color: #000 !important;
+	text-transform: uppercase !important;
+}
+.footer .col-title { /* footer title all */
+	 
+	font-size: 16px;
+	color: #fff!important;
+	text-transform: uppercase !important;
+}
+/*.store-col .col-title { /* footer title  
+	color: #FFF !important;
+}*/
+.list-unstyled li { /* style.css 43 */
+	border-bottom:;
+}
+.list-unstyled li a  { /* footer list links . style.css line 45 & line 6*/
+	color: #fff;
+	text-transform: uppercase !important;
+}
+.alittle-col .col-title { /* footer 2nd col title*/ 
+	font-size:18px;
+}
+.alittle-col .intro /*about us colour font*/{ 
+	color:#fff;
+	text-transform: uppercase !important;
+}
+.follow-us-col .col-title { /* footer 2nd col title*/ 
+	font-size:18px;
+	text-transform: uppercase !important;
+}
+.follow-us-col .intro /*feedback scroller font*/ {
+	font-size:12px;
+	color: #fff;
+	text-transform: uppercase !important;
+}
+.footer1 { /*footer bg*/
+	 
+	background-image: url(https://raw.githubusercontent.com/robbyron/steelwheels/main/footer.jpg) !important;
+}
+.footerl .col-sm-6:nth-child(2) {
+	color:green !important
+}
+
+
+
+.container {font-family: 'Lato', serif;}
+.wrap {background:url("https://raw.githubusercontent.com/robbyron/steelwheels/main/headerbg.png") top repeat-x;}
+.header {background-color:# ; height:97px; padding-top:10px;}
+.navbg, .topnav a, .midnav a {background-color:# ;}
+.cw, .cw a {color:white;}
+.cw a:hover, .cw a:focus, label:hover {color:#712557;}
+.cg, label {color:#3f3f3f;}
+.cgl {color:#4f4f4f;}
+.ccyan {color:#fff;}
+.clr {clear:both;}
+  
+.topnav {height:33px; line-height:33px; font-size:11px}
+.midnav {line-height:37px;}
+.search {background:url("https://raw.githubusercontent.com/robbyron/steelwheels/main/search.gif") center right no-repeat white; margin-top:5px; margin-right:25px; width:250px; max-width:340px; height:26px; border-radius:13px; font-size:11px;}
+.navnxt {background:url(" ") repeat ; padding-top:15px; padding-bottom:11px;}
+.navnxt p {font-size:11px; clear:both; line-height:0px; color:#727272;}
+.fast, .rated, .range {padding-left:10px; text-align:center;}
+.fast {background:url("https://raw.githubusercontent.com/robbyron/steelwheels/main/ship.png") 15% center no-repeat;}
+.rated {background:url("https://raw.githubusercontent.com/robbyron/steelwheels/main/star.png") 15% center no-repeat;}
+.range {background:url("https://raw.githubusercontent.com/robbyron/steelwheels/main/range.png") 15% center no-repeat;}
+
+.thumbnail a {width:33%; margin:21px auto; text-align:center; display:inline-block;}
+
+.title {font-size:28px;}
+.price {font-size:13px;}
+.product {padding-top:18px;}
+.product .large {text-align:center; margin-bottom:10px;}
+.samed {background:url("https://raw.githubusercontent.com/robbyron/steelwheels/main/dispatch.png") 3% center no-repeat #275b8d; margin-top:40px; padding:10px 0 10px 60px; line-height:20px; font-size:13px; font-weight:normal; max-width: 425px !important;}
+
+.supportbg {background:url("https://raw.githubusercontent.com/robbyron/steelwheels/main/supportbg.jpg") repeat; padding:20px 0 30px;}
+.support, .quality, .bestpr, .ukbase {padding:35px; display:block}
+.supbrdr {border-right:1px solid #ccc;}
+.support {background:url("https://raw.githubusercontent.com/robbyron/steelwheels/main/support.png") center no-repeat;}
+.quality {background:url("https://raw.githubusercontent.com/robbyron/steelwheels/main/phone.png") center no-repeat;}
+.bestpr {background:url("https://raw.githubusercontent.com/robbyron/steelwheels/main/facebook.png") center no-repeat;}
+.ukbase {background:url("https://raw.githubusercontent.com/robbyron/steelwheels/main/support.png") center no-repeat;}
+
+.item-title {margin-top: 10px; margin-bottom: 5px; font-size:15px; font-weight:normal; text-align:center;}
+.item-desc {text-align:center; font-size:11px; color:#999}
+
+.list-unstyled {margin:0; padding:0}
+.list-unstyled li {list-style:none; border-bottom:1px solid #fff; max-width:200px;}
+.list-unstyled li.last {border:none;}
+.list-unstyled li a { display: block; padding: 5px 0; font-size:11px;}
+.list-unstyled li a:hover {color:#ccc; text-decoration:none;}
+.list-inline { padding-left: 0; list-style: none;}
+.list-inline > li { display: inline-block;}
+.star {background:url("https://raw.githubusercontent.com/robbyron/steelwheels/main/stars.png") center no-repeat; padding:22px;}
+.intro {font-size:11px;}
+.footerl {padding:15px 10px; font-size:12px; background-color:#202020;}
+.copy {padding:10px; font-size:10px; color:#999; font-family:sans-serif;}
+.tabbdr {border-color:#ccc;}
+.tabhvr {color:#712557;}
+.tabtxt {color:#5a5a5a;}
+
+footer {background:url("https://raw.githubusercontent.com/robbyron/steelwheels/main/footerbg.png") top repeat ;}
+footer .prplbg {background:url("https://raw.githubusercontent.com/robbyron/steelwheels/main/footer.jpg") repeat; padding-top:5px; padding-bottom:40px;}
+
+.banner {text-align:center;}
+.banner img {width:98%; margin:0 auto;}
+.banner{ min-height:490px; max-height:4900px; overflow:hidden; position:relative; box-sizing: border-box; white-space: nowrap;}
+.banner > div{ position:absolute; animation:move_slide2 16s infinite; opacity:0; width:100%; margin:0 auto;}
+.banner > div:nth-child(1){ animation-delay: 0; }
+.banner > div:nth-child(2){ animation-delay: 4s; }
+.banner > div:nth-child(3){ animation-delay: 8s; }
+.banner > div:nth-child(4){ animation-delay: 12s; }
+@keyframes move_slide{
+	10%{ opacity:1; }
+	80%{ opacity:1; }
+	90%{ opacity:0 }
+}
+@keyframes move_slide2{
+	25%{opacity:1;}
+	40%{opacity:0;}
+}
+
+ 
+ 
+ .slider{   /*Instead of height we will use padding*/
+	  /*That helps bring the labels down*/
+	  text-align: center;
+	  font-size: 14px;
+	  font-family:Verdana, Geneva, sans-serif !important;
+}
+
+
+ .slider img {
+	max-width: 200px !important; width: 100%;
+    height: auto;  
+	 
+ }
+
+
+	/*Last thing remaining is to add transitions*/
+.slider .large{ }
+.slider .large img{max-width: 200px !important; width: 100%;
+    height: auto;  }
+.slider input[name='slide_switch'] { display: none;}
+.slider label { margin: 0 0 0 18px; float: left; cursor: pointer;	transition: all 0.5s; opacity: 1; /*default low opacity*/}
+.slider label img {display: block;}
+.slider input[name='slide_switch']:checked+label {opacity: 1;}
+	/*clicking any thumbnail now should change its opacity(style) / Time to work on the main images*/
+.slider input[name='slide_switch'] ~ .large { opacity: 0;	transform: scale(1.1);}
+	/*that hides all main images at a 110% size. On click the images will be displayed at normal size to complete the effect */
+.slider input[name='slide_switch']:checked+label+.large { opacity: 1; transform: scale(1);}
+	/*Clicking on any thumbnail now should activate the image related to it*/
+
+
+.rw-words{ display: inline-block; min-height:130px;}
+.rw-words-1 span{ position: absolute; opacity: 0; overflow: hidden; padding-right: 20px; -webkit-animation: rotateWord 18s linear infinite 0s; -ms-animation: rotateWord 18s linear infinite 0s; animation: rotateWord 18s linear infinite 0s; }
+.rw-words-1 span:nth-child(2) {  -webkit-animation-delay: 3s; -ms-animation-delay: 3s; animation-delay: 3s; }
+.rw-words-1 span:nth-child(3) {  -webkit-animation-delay: 6s; -ms-animation-delay: 6s; animation-delay: 6s; }
+.rw-words-1 span:nth-child(4) {  -webkit-animation-delay: 9s; -ms-animation-delay: 9s; animation-delay: 9s; }
+.rw-words-1 span:nth-child(5) {  -webkit-animation-delay: 12s; -ms-animation-delay: 12s; animation-delay: 12s; }
+.rw-words-1 span:nth-child(6) {  -webkit-animation-delay: 15s; -ms-animation-delay: 15s; animation-delay: 15s; }
+@-webkit-keyframes rotateWord {
+	0% { opacity: 0; }
+	2% { opacity: 0; -webkit-transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px);}
+	17% { opacity: 1; -webkit-transform: translateY(0px); }
+	20% { opacity: 0; -webkit-transform: translateY(30px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes rotateWord { 
+	0% { opacity: 0; }
+	2% { opacity: 0; -ms-transform: translateY(-30px); }
+	5% { opacity: 1; -ms-transform: translateY(0px);}
+	17% { opacity: 1; -ms-transform: translateY(0px); }
+	20% { opacity: 0; -ms-transform: translateY(30px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes rotateWord {
+	0% { opacity: 0; }
+	2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
+	17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
+	20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+main { min-width: 320px; max-width: 96%; padding: 0px 0; margin: 0 auto; background: #fff;}
+section { display: none; padding: 20px 0 0; border-top: 1px solid #ddd;}
+main input { display: none;}
+main label { display: inline-block; margin: 0 0 -1px; padding: 25px 5px; font-weight: normal; text-align: center; border: 1px solid #ccc; border-radius:10px 10px 0 0; width:22%; background:#275b8d; color: #fff !important;;}
+main label:before { font-weight: normal; margin-right: 0px;}
+main label[for*='1']:before { content: ''; }
+main label[for*='2']:before { content: ''; }
+main label[for*='3']:before { content: ''; }
+main label[for*='4']:before { content: ''; }
+main label:hover { cursor: pointer;}
+main input:checked + label { border-bottom: 1px solid #fff; color:#712557;}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 { display: block; border: 1px solid #ccc; padding: 15px; border-radius: 0 1px 1px; box-shadow:0 3px 1px #ddd; -webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;}
+
+@media (min-width: 768px) and (max-width: 992px) {
+.col-sm-10 .nav a, .col-sm-7 .nav a {padding:0 8px;}
+.col-sm-12 .nav a {font-size:12.5px; padding:0 7px}
+.fast, .rated, .range {background-position:0 center}
+.supbrdr:nth-child(2) {border:none;}
+  footer .prplbg {padding-bottom:5px;} 
+  main label {width:22%}
+  main label:nth-child(6) {width:25%}
+}
+
+@media screen and (min-width: 1200px) {
+  .store-col {padding-left:45px;}
+}
+
+@media screen and (max-width: 650px) {
+  .banner{ min-height:300px;}
+  main label { font-size: 12px;}
+  main label:before { margin: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .banner{ min-height:170px;}
+  .supbrdr {border:none;}
+  .header {text-align:center; padding:0}
+  .navbar-brand {display:inline-block; float:none; }
+  .navbar-brand > img, .footerl > div:first-child img, .thumbnail > img {width:100%}
+  main label {font-size: 10px; padding:15px 6px; width:24%}
+  main label:nth-child(8) {width:18%; padding:15px 10px;}
+  main section {font-size:12px;}
+  
+}
+
+.thumbnail > img {width:100%}
+
+
+.pagecontainer table:last-child {max-width:1170px; margin:auto;}
+	.stBadge-accent{ display: none; }
+	#glbfooter{margin-top: 0;}
+	.pagewidth table.container tr.first{ display: none; }
+	.pagewidth .fpcc .countClass{font-family:Lato; color: #5E5E5E;font-size: 14px;font-stretch:normal; font-weight: 400; }
+	.pagewidth .fpcc .matchClass{ font-family:Lato;color: #5E5E5E; font-size: 14px;font-stretch:normal;font-weight: 400; }
+	.pagewidth .fpcc span.keywordClass{ font-family:Lato;color: #5E5E5E;font-size: 14px;font-stretch:normal; font-weight: 400; }
+	.pagewidth  td.r3_c{ border-right: 0; border-left: 0; border-bottom: 0; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px;}
+	.pagewidth  td.r3_c  .r3_cm   { padding: 0 20px 0 0; margin-top:25px;  margin-left: 17px;}
+	.pagewidth .r3_t{ background: none; float: left; width: 680px; }
+	.pagewidth .r3_t  b{ margin-left: 0; background: none; border: 0; }
+	.pagewidth .r3_t  b i{ margin-right: 0; background: none; border: 0;}
+	.pagewidth #v4-18{ display: none; }
+	.pagewidth #v4-6  span.label{font-family:Lato;color: #9F9F9F;font-stretch:normal;font-size: 11px; font-weight: 400; padding:  0 8px 0 15; margin-left: 0; padding:0 0 0 10px;  }
+	.pagewidth #v4-14  span.label{font-family:Lato; background: url(https://primesellability.com/bootstrap/images/cultureking-bg-sortby.png) no-repeat left center; color: #5E5E5E;font-size: 14px; font-weight: 400; padding:  0 8px 0 15; margin-left: 0; padding:0 0 0 17px;  }
+	.pagewidth #v4-13  span.label{font-family:Lato; background: url(https://primesellability.com/bootstrap/images/cultureking-bg-sortby.png) no-repeat left center; color: #5E5E5E;font-size: 14px; font-weight: 400; padding:  0 8px 0 15; margin-left: 0; padding:0 0 0 17px;line-height:40px;}
+	.pagewidth #v4-6 span.pdmt .cur{font-family:Lato;background:url(https://primesellability.com/bootstrap/images/stfrock-icon-sortby.png) right center no-repeat;color: #5E5E5E;font-stretch:normal;font-size: 14px; font-weight: 400; display: inline-block; height: 24px; line-height: 24px;padding: 0 15px  0 0px; }
+	.pagewidth #v4-6 span.pdmt .cur#v4-15{ }
+	.pagewidth #v4-6 span.pdmt .cur#v4-9{   }
+	.pagewidth #v4-6 span.pdmt .cur img{ display: none; }
+	.pagewidth .r3_bl{ display: none; }
+	.pagewidth .ctrlbr{ border-bottom: 0; }
+	.pagewidth .ctrlbr #v4-7{ right: 245px;display:none;}
+	.pagewidth .ctrlbr #v4-13{ right: 0;}
+	.pagewidth div.itemseparator{ border: 0; }
+	.pagewidth table.gallery div.ttl a{font-family:Lato;color: #5E5E5E; font-size: 14px; font-weight: 400;font-stretch:normal; text-transform: capitalize; }
+	.pagewidth table.gallery div.ttl a:hover{color: #AB94B9; }
+	.pagewidth .grid td.left{ border-left: 0; padding: 0 8px 9px; }
+	.pagewidth .grid td.gallery table.gallery{
+	border:1px solid #EBEBEB;
+	height: 350px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+background-image: ; 	background-image: url(https://raw.githubusercontent.com/robbyron/steelwheels/main/gal.jpg);
+}
+	.pagewidth .grid td.gallery table.gallery tr td.details table.fixed tr:first-child{ position: relative; }
+	.pagewidth .grid td.gallery table.gallery tr td.details table.fixed tr{ ffff;}
+	.pagewidth .grid td.gallery {padding-right: 0px; vertical-align: top;}
+	.pagewidth table.gallery .mi {display: inline-block; min-height: 16px; padding: 0 13px; text-align: left; width: 100%; margin-bottom: 5px; margin-top: 10px; }
+	.pagewidth table.gallery .mi div a.ppr{ color: #959595;}
+	.pagewidth table.gallery div.ttl {margin: 2px 0 5px; padding: 0 13px; min-height:55px;}
+	.pagewidth table.gallery div.subtitle { color: #AEAEAE; font-size: 12px; font-weight: 400; margin: 2px 0 8px; padding: 0 13px; text-transform: lowercase; }
+	.pagewidth table.gallery td span.stp{ display: none; }
+	.pagewidth table.gallery div.clearFullDiv .label{ font-size: 11px; color: #919191;font-weight:normal;padding:0 0 0 0px;}
+	.pagewidth .details span.ship {color: #9F9F9F; display:  ; font-size: 11px; font-weight: 400; line-height: 13px; font-stretch:normal;}
+	.pagewidth table.gallery table.fixed div.time2{ padding-left: 0; margin-top: 10px; position: relative;  }
+	.pagewidth table.gallery table.fixed div.time2 span{ float: left; color: #959595; font-size: 11px;line-height: 13px;font-weight:normal;padding:0 0 0 0px;}
+	.pagewidth table.gallery table.fixed div.time2 span.label{ left: 0;}
+	.pagewidth td#CentralArea div.dynpg{margin:15px 0 0;}
+	.pagewidth td#CentralArea div.dynpg .pager{margin:0px auto;}
+	/*.pagewidth .ctrlbr{ padding:0px; position: relative;margin:0 0 30px;}
+	.pagewidth .ctrlbr #v4-8{ margin: 0 0 10px; display:none; right: 235px; background: url("https://primesellability.com/bootstrap/images/cultureking-icon-sortdownred.png") no-repeat 95% center; }
+	.pagewidth .ctrlbr #v4-14{  background:#F3F3F3 url("https://primesellability.com/bootstrap/images/adairs-icon-sort-by.png") no-repeat 90% center; margin:0px; display: inline-block; right: 0; padding: 0 30px 0 0;}
+	.pagewidth .ctrlbr #v4-13{  background:#F3F3F3 url("https://primesellability.com/bootstrap/images/adairs-icon-sort-by.png") no-repeat 90% center; margin: 0 0 10px; display: inline-block; right: 0; padding: 0 30px 0 0;min-height:40px;line-height:40px;} */
+	div#v4-3{ border-bottom: 0; }
+	.rs-pview {padding:0;}
+	.pagewidth .rs_box{ border: 0; }
+	.pagewidth .v4stabl{ padding-right: 20px; }
+	.pagewidth div.fpcc { line-height:55px;min-height:55px;padding:0; border-bottom: 1px dotted #9F9F9F;border-top:1px dotted #9F9F9F;}
+	.pagewidth .dynpg .l, .pagewidth .dynpg .r{ display: none; }
+	.pagewidth table.pgbc{ border: 0; background: none; }
+	.pagewidth .dynpg .prev a.disabled{ font-family: Lato; font-weight: 600;  }
+	.pagewidth .dynpg .prev a.enabled{ font-family: Lato; font-weight: 600; color: #333; }
+	.pagewidth .dynpg .next a.enabled{ font-family: Lato; font-weight: 600; color: #333;}
+	.pagewidth .dynpg .next a.disabled{ font-family: Lato; font-weight: 600; color: #666; display: none;}
+	.pagewidth .dynpg td.pages a.disabled:visited{font-weight: 600; padding: 0 5px;}
+	 
+	.pagewidth td.pages a.enabled {color: #5E5E5E !important;  font-weight: 300; font-size: 14px; font-stretch:normal;}
+	.pagewidth td.pages a:hover{background:#F3F3F3;}
+	
+	
+	
+
+#LeftPanel td.v4title font {color:#2f3842;font-size:14px; font-weight:normal; line-height:34px; margin:0px;padding: 0 0 0 0px; font-family: 'Lato', 'Trebuchet MS', Arial !important;; text-transform:uppercase;}
+#LeftPanel .ttl{display: none;} /* Store home link */
+table.v4acp tr.v4acp_head td.v4title {padding:9px 0px 0px 5px; background: transparent;}
+#LeftPanel .v4vspacer {height: 0px; width: 0px; display: none;}
+#LeftPanel .v4baccent {height: 0px; display: none;}
+#LeftPanel .v4accent {height: 0px; width: 0px; display: none;}
+#LeftPanel .v4hspacer {height: 0px; width: 0px; display: none;}
+
+#LeftPanel {margin: 0 0 0 0px; padding: 0px 0px 0px 10px;} /*Left nav section */
+#LeftPanel .v4acpcont{width:220px; margin-bottom: 20px; position: relative; background:none;} /* This is the wrap around each box, ie, categories,search, pages*/
+div.lcat {width: 220px;}
+#LeftPanel table.v4midBox { margin: 0px 0px 0px 0px; border: none; padding-bottom:11px; background:url(../images/categores-bott-shadow.png) no-repeat left bottom; }/* Titles of all Boxes */
+#LeftPanel td.v4title{height:38px;background: url(../images/icons.png) no-repeat 0 -1154px; position:relative; padding-top: 0px;}/* Top graphic of boxes*/
+#LeftPanel td.v4title h2 { /*background:url(../images/cat-icon.png) no-repeat; */line-height: 38px; padding-left:0px; font-family:  'Lato', 'Trebuchet MS', Arial !important;font-size:18px;color:#444444; text-transform:none; font-weight: normal;}/* Title text of all boxes */
+#LeftPanel .v4acp_mid{}
+#LeftPanel td.v4mid { padding: 2px 0px 2px 0px; background:none; margin-bottom: 20px; width: 210px;} /*background boxes */
+
+/* Style for store pages */
+.v4clp ul li {list-style-type: none; margin: 0px; font-weight: normal; line-height: 27px; height: 27px; display:block; padding-top: 0px;}
+.v4clp ul li:hover{}
+.v4clp ul li a {color: #444; font-family:  'Lato', 'Trebuchet MS', Arial !important; font-size: 12px; text-decoration: none; margin: 0 0 0 8px; height: 27px; padding: 0px; display: block; float: left; font-weight: normal;}
+.v4clp ul li a:visited {}
+.v4clp ul li a:active {color:#444;}
+.v4clp ul li a:hover {color:#999;}
+.v4clp ul li span {color: #000; font-family:  'Lato', 'Trebuchet MS', Arial !important; font-size: 16px; text-decoration: none; margin: 0 0 0 8px; height: 27px; padding: 0px; display: block; float: left; font-weight: normal; color:#727272;} /*This is the active link*/
+table.v4clp td ul { margin:0px; padding-left: 0px;}
+table.v4clp td { padding-top:0px;}
+/* END Style for store pages */
+
+/* Top default ebay search */
+table.v4midBox tr.v4acp_mid td.v4mid {padding: 0px; overflow: hidden; color: #9C9C9C; font-size: 13px; font-weight: normal; font-family:  'Lato', 'Trebuchet MS', Arial !important;}
+table.v4midBox tr.v4acp_mid td.v4mid .v4clp{ width:210px;}
+/*text "in titles & description"*/
+.v4sbox { border:1px solid #9C9C9C;} /*input color*/ 
+/*END Top default ebay search */
+
+/* Start first level */
+#LeftPanel .lcat ul {}
+#LeftPanel ul.lev1 {padding-left:0px;}
+#LeftPanel .lcat .ttl {color: #5e5e5e; font-family:  'Lato', 'Trebuchet MS', Arial !important; font-weight: normal; margin-bottom: 0px;}
+#LeftPanel .lcat .lev1 li {list-style-type: none; margin: 0px; background:url(../images/categories-li-bg.png) no-repeat; font-weight: normal; line-height: 27px; height: 27px; display:block;}
+#LeftPanel .lcat .lev1 li:hover{}
+.lcat .lev1 li a {color: #444; font-family:  'Lato', 'Trebuchet MS', Arial !important; font-size: 11px; text-decoration: none; margin: 0 0 0 8px; height: 27px; padding: 0px; display: block; float: left; font-weight: normal;}
+.lcat .lev1 li a:visited{}
+.lcat .lev1 li a:hover {color:#0085c2;}
+.lcat .lev1 li a:active{color:blue;}
+.lcat .lev1 li span {color: #444444; font-size: 11px; text-decoration: none; height: 22px; padding: 0px; display: block; float: left; font-weight:normal; text-transform:none; font-family: 'Lato', 'Trebuchet MS', Arial !important;;}
+.lcat .lev1 li span a:hover {color: #0085c2; font-family:  'Lato', 'Trebuchet MS', Arial !important; font-size: 11px; text-decoration: none; margin:0 0 0 8px; height:22px; padding:0px; display:block; float:left;}
+.lcat .lev1 li span.cnt{color: black; font-weight: normal; background-image: none; padding: 0px; font-size: 0.8em; margin:0 0 0 10px;} /* This is the number next to name */
+/* END first lever */
+
+/* Start second level */
+#LeftPanel .lcat ul ul {padding: 0px; margin: 0px;}
+#LeftPanel ul.lev2 {padding: 0px; margin: 0px;}
+#LeftPanel .lcat .ttl {color: #5e5e5e; font-family:  'Lato', 'Trebuchet MS', Arial !important; font-weight: normal; margin-bottom:0px; }
+#LeftPanel .lcat .lev2 li {list-style-type: none; margin: 0px; padding: 0px 0px 0px 5px; line-height: 22px; height: 22px; display:block;}
+.lcat .lev2 li a {color:#444444; font-size: 13px; background: url('') no-repeat left center; text-decoration: none; margin:0 0 0 0px; height:22px; padding:0 0 0 15px; display:block;float:left;}
+.lcat .lev2 li a:hover {color:#444444; padding:0 0 0 15px;}
+.lcat .lev2 li span {color: #999; font-weight: normal; padding: 0px 0px 0px 15px;}
+.lcat .lev2 li span.cnt{color: #fff; font-weight: normal; background: none; padding: 0px;}
+/* END second level */
+
+/* Start third level */
+#LeftPanel .lcat ul ul ul {padding: 0px; margin: 0px;}
+#LeftPanel ul.lev3 {padding: 0px !important; margin: 0px !important;}
+#LeftPanel .lcat .ttl {color: #5e5e5e; font-family:  'Lato', 'Trebuchet MS', Arial !important; font-weight: normal; margin-bottom:0px; }
+#LeftPanel .lcat .lev3 li {list-style-type: none; margin: 0px; padding: 0px 0px 0px 15px;  font-weight: normal; font-size: 10px; font-family:  'Lato', 'Trebuchet MS', Arial !important; line-height: 22px; height: 22px; display:block;}
+.lcat .lev3 li a {color: #555; font-size: 10px; background: url('') no-repeat left center; text-decoration: none; margin:0 0 0 0px; height:20px; padding:0 0 0 15px; display:block;float:left;}
+.lcat .lev3 li a:hover {color:#0085c2; padding: 0px 0px 0px 15px;}
+.lcat .lev3 li span {color: #0085c2; font-weight: normal; padding: 0px 0px 0px 15px; font-size:10px;}
+.lcat .lev3 li span.cnt {color: #CCC; font-weight: normal; background: none; padding: 0px;}
+.lcat .lev3 li span.cnt a:hover {color: #0085c2; font-weight: normal; background: none; padding: 0px 0px 0px 15px;}
+ 
+#LeftPanel .lcat a.all_cats {color: #727272; font-size: 10px; text-decoration: none; margin: 0 0 0 18px; height: 22px; line-height:22px; padding: 0px; display: block; float: left; font-weight: normal;}
+#LeftPanel .lcat a.all_cats:hover {color:#2d89ef; text-decoration: none;}
+.all_cats { color: #727272;; font-size: 10px; font-weight: normal; font-family:  'Lato', 'Trebuchet MS', Arial !important;}
+.all_cats a:link, a:visited, a:active { color: #727272;; font-size: 10px; font-weight: normal; font-family:  'Lato', 'Trebuchet MS', Arial !important; padding: 0px 0px 0px 0px;}
+.all_cats a:hover {color:#e6a80c; text-decoration: none;}
+ 
+ul.s_recat li {list-style-type: none; margin: 0px; padding: 0px 0px 0px 0px; width: 220px; font-weight: normal; font-size: 11px; font-family:  'Lato', 'Trebuchet MS', Arial !important; line-height: 22px; height: 22px;}
+ul.s_recat li a {color: #999; font-size: 11px; background: url('') no-repeat left center; background-position: 2px 0px; padding: 0px 0px 0px 14px;}
+ul.s_recat li a:hover {color: blue; font-size: 14px; font-weight: normal; text-decoration: none; background-position: 3px -21px; padding: 0px 0px 0px 15px;}
+ul.s_recat li span {color: #999; font-weight: normal; font-size: 14px; background: none; padding: 0px 0px 0px 0px;}
+ul.s_recat li span.cnt{color: #999; font-weight: normal; background: none; padding: 0px; font-size: 0.8em;}
+ 
+#LeftPanel .lcat li.morelnk {font-style: normal; margin-left: 20px; margin-top: 2px; margin-bottom: 2px; font-weight: normal;}
+table.v4nl td {color: #727272; padding:10px; font-size: 12px; font-weight: normal; font-family:  'Lato', 'Trebuchet MS', Arial !important; line-height: 19px;}
+div.link a:link {color: #5e5e5e; font-size: 11px; font-weight: normal; font-family:  'Lato', 'Trebuchet MS', Arial !important; font-style: normal; display: none;}  
+div.link a:hover {color: #5e5e5e; font-size: 11px; text-decoration: underline;}
+ 
+.eb-wrap {width: 100%; margin:0px; padding:0px;}
+  
+.eb-background { background:url() repeat; padding:0px; margin: 0px;  !important; vertical-align: top !important;}
+.eb-content { width: 1186px;
+position: relative;
+margin:0 auto;
+line-height: 1.4em;}
+
+ 
+ 
+ 
+
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+@media only screen and (max-width: 479px){
+    .eb-content { width: 100%; }
+}
+
+@media only screen and (max-width: 800px){
+
+.navnxt {
+display: none;	
+	
+}
+ }
+ 
+ 
+ @media only screen and (max-width: 479px){
+	 .LeftPanel {float:left;}
+	 
+	 .TopPromoArea{float:left;}
+	 .CentralArea{float:left;}
+	 .v4stabl{float:left;}
+	.r3_c {float:left;}
+	 }
+ 
+ 
+ 
+  
+ 
+ @media only screen and (max-width: 479px){
+	 .LeftPanel {float:left;}
+	 
+	 .TopPromoArea{float:left;}
+	 .CentralArea{float:left;}
+	 .v4stabl{float:left;}
+	.r3_c {float:left;}
+	 }
+ 
+ 
+   @media (max-width: 670px){
+	.newsletter-container {width:175px;}
+	.pagewidth .grid td.gallery {display:inline-block;width:32%;}
+	.pagewidth table.gallery div.ttl {width:90%;}
+	.pagewidth td.r3_c .r3_cm {margin-left:0;}
+	.pagewidth.store-page {overflow:hidden;}
+	.pagewidth div.fpcc {max-width:96%;}
+}
+@media (max-width: 639px){
+	/*Store*/
+	.main-container-store {
+        display: block;
+    }
+    .main-container-store thead {
+        display: none;
+    }
+    .main-container-store table,
+    .main-container-store tbody,
+    .main-container-store tr,
+    .main-container-store td {
+        display: block;
+    }
+    .main-container-store #LeftPanel {
+        display:none;
+        width:100% !important;
+    }
+    .pagewidth .grid td.gallery {
+        width: auto !important;
+        padding: 0 !important;
+        margin: 0 0 10px;
+        display:block;
+    }
+	.pagewidth #LeftPanel {display:none;}
+	.pagewidth td.r3_c .r3_cm {padding:0px 15px;}
+	.pagewidth div.r3_cm div.rs_box div.ctrlbr {position:relative;right:unset;top:unset;margin:0 0 15px;}
+	.pagewidth div.r3_cm div.rs_box div.ctrlbr span.pdmt span {padding:0;}
+	.pagewidth div.r3_cm div.rs_box .pview.rs-pview table.grid td.gallery table.fixed tr td {display:inline-block;}
+	.pagewidth div.r3_cm div.rs_box .pview.rs-pview table.grid td.gallery table.fixed tr td.bin-content {float:right;}
+	.pagewidth table.gallery div.ttl{height:auto;}
+	.pagewidth table.gallery .fixed{margin-top:0;}
+	.pagewidth table.gallery td.bin-content{ width: 60%;  }
+}
+
+
+@media (max-width: 768px){
+
+.navbar {
+
+margin-top: 35px;
+   
+}
+
+
+}
+
+
+
+@media (max-width: 768px) {
+ .navbar-header{
+height: 53px;
+ 
+     
+ }
+ 
+  
+ }
+
+
+@media (max-width: 768px) {
+
+.form-group {
+    margin-bottom: 35px !important;
+
+
+}
+
+}
